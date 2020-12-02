@@ -1,3 +1,5 @@
 window.onload = function() {
-    console.log("Hi There!");
+    window.addEventListener("keyup", function(e){
+        console.log(e.key)
+    })
 }
