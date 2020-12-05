@@ -1,19 +1,9 @@
 window.onload = function() {
 
-    let keyPress = [];
+    const pressed = [];
+    const secretCode = 'secret';
 
     window.addEventListener("keyup", function(e){
-        if(e.key === "ArrowUp"){
-            keyPress.push(e.key);
-        }
-        if(e.key === "ArrowDown"){
-            keyPress.push(e.key);
-        }
-        if(e.key === "ArrowRight"){
-            keyPress.push(e.key);
-        }
-        if(e.key === "ArrowLeft"){
-            keyPress.push(e.key);
-        }
+        console.log(e.key);
     })
 }
